@@ -11,16 +11,14 @@ Toutes les fonctionnalitées furent implémentées par Laurent Ducros (seule mem
 
 ## Fonctionnalités implémentées
 
-- **Inscription et connexion** à une db MongoDB
 - **Carte interactive** avec géolocalisation de l'utilisateur en temps réel
 - **Ajout de géocaches** personnalisées avec difficulté (1 à 5) et description
 - **Marquage des géocaches comme trouvées**
   - Apparition d’un bouton lors du clic sur une cache
   - Confirmation avant validation
   - Sauvegarde persistante côté backend
-- **Suppression d’une cache trouvée**
+- **Suppression d’une cache de la liste des trouvées**
   - Apparition d’un bouton ❌ si la cache est déjà trouvée
-  - Confirmation avant suppression
 - **Affichage dynamique** des caches selon leur statut :
   - Vert : caches créées par l’utilisateur
   - Bleu : caches trouvées
@@ -30,7 +28,6 @@ Toutes les fonctionnalitées furent implémentées par Laurent Ducros (seule mem
   - Vérification et stockage sécurisé du token
   - Durée de chaque token de 24h
 - **Suppression des géocaches** créées par l’utilisateur
-  - Confirmation avant suppression
 - **Modification des géocaches** personnelles
 - **Classement des utilisateurs (leaderboard)**
   - Accessible depuis le menu
@@ -40,3 +37,4 @@ Toutes les fonctionnalitées furent implémentées par Laurent Ducros (seule mem
   - Utilisateurs
   - Caches trouvées par utilisateur
 - **Compatible mobile via Expo (React Native)**
+- **Bouton de déconnexion**
